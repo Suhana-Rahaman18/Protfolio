@@ -1,6 +1,5 @@
 /* Styles defined for the desktop or the bigger screen devices*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 body {
     margin: 0;
     padding: 0;
@@ -99,7 +98,7 @@ body {
     border-radius: 50%;
 }
    
-/* Portfolio section styles */
+/* Portfolio section & project section styles */
 .portfolio {
     margin: 4.8rem 0;
     padding: 0 5rem;
@@ -306,7 +305,6 @@ body {
     color: #0a665b;
 }
 
-
 .footer-content text-center {
     position: absolute;
     bottom: 40px;
@@ -315,9 +313,11 @@ body {
     justify-content: space-between;
    
 }
+
 .social-links{
     gap: 10px;
 }
+
 .social-links a {
     position: relative;
     display: inline-flex;
@@ -331,9 +331,8 @@ body {
     font-size: 20px;
     color: #fff;
     text-decoration: none;
-    
-    
 }
+
 .social-links a:hover{
     color: #0a665b;
 }
