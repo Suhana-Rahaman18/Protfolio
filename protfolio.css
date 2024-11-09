@@ -14,12 +14,12 @@ body {
     justify-content: space-between;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100 %;
     background-color: #0a665b;
 }
 
 .logo {
-    padding: 0 5rem;
+    padding: 0 5 rem;
 }
 
 .logo .logo-heading {
@@ -27,7 +27,7 @@ body {
 }
 
 .menu {
-    padding: 0 5rem;
+    padding: 0 5 rem;
 }
 
 .cross-icon {
@@ -40,12 +40,12 @@ body {
 }
 
 .menu-list .menu-list-items {
-    padding: 0.5rem 1rem;
+    padding: 0.5 rem 1 rem;
 }
 
-@media screen and (min-width: 856px) and (max-width: 1024px) {
+@media screen and (min-width: 856 px) and (max-width: 1024px) {
     .menu-list .menu-list-items {
-        padding: 0.5rem 0.3rem;
+        padding: 0.5 rem 0.3 rem;
     }
 }
 
@@ -53,22 +53,22 @@ body {
 .hero {
     background-image: url("   ");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 100%;
-    height: 80vh;
+    background-size: 100 % 100 %;
+    width: 100 %;
+    height: 80 vh;
     display: flex;
     align-items: center;
     justify-content: start;
-    margin: 4.8rem 0;
+    margin: 4.8 rem 0;
 }
 
 .hero .intro {
     text-align: center;
-    margin: 0 5rem;
+    margin: 0 5 rem;
 }
 
 .hero .intro-buttons {
-    margin: 2rem 0;
+    margin: 2 rem 0;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -78,47 +78,47 @@ body {
 .about {
     display: flex;
     align-items: center;
-    background-image: linear-gradient(90deg, #0a665b, #35A99C);
+    background-image: linear-gradient (90 deg, #0a665b, #35A99C);
     justify-content: space-between;
-    width: 100%;
+    width: 100 %;
 }
 
 .about .about-text {
-    width: 450px;
+    width: 450 px;
     color: #fff;
-    padding: 5rem 1rem 5rem 5rem;
+    padding: 5 rem 1 rem 5 rem 5 rem;
 }
 
 .about .about-image img {
-    height: 300px;
-    width: 400px;
-    padding: 5rem 5rem 5rem 1rem;
+    height: 300 px;
+    width: 400 px;
+    padding: 5 rem 5 rem 5 rem 1 rem;
 }
 .about-image img {
-    border-radius: 50%;
+    border-radius: 50 %;
 }
    
 /* Portfolio section & project section styles */
 .portfolio {
-    margin: 4.8rem 0;
-    padding: 0 5rem;
+    margin: 4.8 rem 0;
+    padding: 0 5 rem;
 }
 
 .port-card {
-    padding: 0 !important;
+    padding: 0  !important ;
     background: none !important;
-    border: 2px solid #000;
+    border: 2 px solid #000;
 }
 
 .port-card .image {
-    width: 100%;
+    width: 100 %;
 }
 
 .port-card .image img {
-    height: 200px;
-    width: 100%;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    height: 200 px;
+    width: 100 %;
+    border-top-right-radius: 20 px;
+    border-top-left-radius: 20 px;
 }
 
 /* Services section styles */
@@ -127,20 +127,20 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 4.8rem 0;
-    padding: 0 5rem;
+    margin: 4.8 rem 0;
+    padding: 0 5 rem;
 }
 
 .my-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 2rem 0;
+    margin: 2 rem 0;
 }
 
 .my-row .my-col {
     text-align: center;
-    width: 30%;
+    width: 30 %;
 }
 
 .my-card {
@@ -149,15 +149,15 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
-    background-image: linear-gradient(#0a665b, #2c8174, #35A99C);
-    padding: 1rem;
+    border-radius: 20 px;
+    background-image: linear-gradient (#0a665b, #2c8174, #35A99C);
+    padding: 1 rem;
 }
 
 .icon {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+    height: 50 px;
+    width: 50 px;
+    border-radius: 50 %;
     background-color: #0a665b;
     display: flex;
     align-items: center;
@@ -165,23 +165,23 @@ body {
 }
 
 .icon svg {
-    font-size: 30px;
+    font-size: 30 px;
     color: #fff;
 }
 
 /* Contact section styles */
 .contact {
-    padding: 0 5rem;
+    padding: 0 5 rem;
 }
 
 .contact-content {
     display: flex;
-    margin: 3rem 0;
+    margin: 3 rem 0;
     justify-content: space-between;
 }
 
 .contact-form-container {
-    width: 50%;
+    width: 50 %;
 }
 
 .contact-form {
@@ -190,24 +190,24 @@ body {
 }
 
 .contact-form .form-controls {
-    width: 80%;
-    padding: 10px 0;
-    margin: 1.67rem 0;
+    width: 80 %;
+    padding: 10 px 0;
+    margin: 1.67 rem 0;
 }
 
 .contact-form .form-btn {
-    width: 83%;
+    width: 83 %;
 }
 
 .contact-details {
-    width: 50%;
+    width: 50 %;
 }
 
 /* Footer Styles */
 .footer {
     background-color: #0a665b;
     color: #fff;
-    padding: 1rem;
+    padding: 1 rem;
 }
 .social-links {
     display: flex;
@@ -217,71 +217,71 @@ body {
 
 /* utility classes */
 .greet-heading {
-    font-size: 1.3rem;
+    font-size: 1.3 rem;
     font-weight: lighter;
     margin: 0;
-    letter-spacing: 1px;
+    letter-spacing: 1 px;
 }
 
 .my-heading {
-    font-size: 2.5rem;
+    font-size: 2.5 rem;
     margin: 0;
 }
 
 .sub-heading {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1 rem;
     color: #656262;
     font-weight: lighter;
 }
 
 .links:hover {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2 px solid #fff;
 }
 
 .links {
-    border-bottom: 2px solid transparent;
-    transition: all 0.25s;
-    padding: 5px;
+    border-bottom: 2 px solid transparent;
+    transition: all 0.25 s;
+    padding: 5 px;
     text-decoration: none;
     color: #fff;
 }
 
 .btn {
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 10 px 20 px;
+    border-radius: 5 px;
     cursor: pointer;
-    letter-spacing: 1px;
+    letter-spacing: 1 px;
     border: none;
 }
 .common-btn {
     background-color: #0a665b;
     color: #fff;
-    border: 2px solid #0a665b;
-    transition: all 0.25s;
-    width: 200px;
+    border: 2 px solid #0a665b;
+    transition: all 0.25 s;
+    width: 200 px;
 }
 
 .common-btn:hover {
     background-color: #fff;
     color: #0a665b;
-    border: 2px solid #0a665b;
+    border: 2 px solid #0a665b;
     outline: none;
 }
 
 .ghost-btn {
     background-color: #fff;
     color: #0a665b;
-    border: 2px solid #0a665b;
+    border: 2 px solid #0a665b;
     outline: none;
-    width: 200px;
+    width: 200 px;
 }
 
 .ghost-btn:hover {
     background-color: #0a665b;
     color: #fff;
-    transition: all 0.25s;
-    border: 2px solid #0a665b;
+    transition: all 0.25 s;
+    border: 2 px solid #0a665b;
 }
 
 .heading-span {
@@ -293,7 +293,7 @@ body {
 }
 
 .small-para {
-    font-size: 14px;
+    font-size: 14 px;
     color: #fff;
 }
 
@@ -307,15 +307,15 @@ body {
 
 .footer-content text-center {
     position: absolute;
-    bottom: 40px;
-    width: 150px;
+    bottom: 40 px;
+    width: 150 px;
     display: flex;
     justify-content: space-between;
    
 }
 
 .social-links{
-    gap: 10px;
+    gap: 10 px;
 }
 
 .social-links a {
@@ -323,12 +323,12 @@ body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 40 px;
+    height: 40 px;
     background: transparent;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    font-size: 20px;
+    border: 2 px solid #fff;
+    border-radius: 50 %;
+    font-size: 20 px;
     color: #fff;
     text-decoration: none;
 }
